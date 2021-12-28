@@ -9,6 +9,8 @@ const NavigationBar = () =>
 		<NavBar>
 			<NavButton onClick={() => navigate('/')}>useReducer</NavButton>
 			<NavButton onClick={() => navigate('/useEffect')}>useEffect</NavButton>
+			<NavButton onClick={() => navigate('/useLayoutEffect')}>useLayoutEffect</NavButton>
+			<NavButton onClick={() => navigate('/useRef')}>useRef</NavButton>
 		</NavBar>
 	)
 }
